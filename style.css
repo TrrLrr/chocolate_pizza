@@ -64,6 +64,11 @@ header h1 {
   text-align: right;
 }
 
+.date {
+  text-align: left;
+  display: inline-block;
+}
+
 header h2 {
   font-size: 10px;
   color: #909594;
