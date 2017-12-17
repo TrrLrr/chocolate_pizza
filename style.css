@@ -100,7 +100,6 @@ main {
 }
 
 .ingredients {
-  font-family: "comic sans", cursive;
   color: #777;
   width: 900px;
   height: 305px;
@@ -112,13 +111,15 @@ li {
 }
 
 .column {
+  font-family: "Delius", cursive;
+  font-size: 20px;
   vertical-align: top;
   display: inline-block;
   margin-top: 37px;
-  margin-left: 90px;
+  margin-left: 85px;
   line-height: 31px;
   height: 305px;
-  width: 300px;
+  width: 330px;
 }
 
 .strike {
