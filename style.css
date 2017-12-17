@@ -1,3 +1,7 @@
+body {
+
+}
+
 .logo_text {
   font-family: 'Pacifico', cursive;
   font-style: italic;
@@ -9,15 +13,13 @@
 
 .choczza {
   font-family: 'Anton', sans-serif;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 5px;
 }
 
-
-
 .divide {
-  height: 6px;
-	background: url("http://ibrahimjabbari.com/english/images/hr-11.png") repeat-x 0 0;
+  height: 13px;
+	background: url("images/divide.png") repeat-x 0 0;
   border: 0;
 }
 
@@ -91,14 +93,85 @@ main {
 }
 
 .text p {
-  font-size: 18px;
-  color: #909594;
+  font-size: 19px;
+  color: #777;
   text-indent: 40px;
   margin-bottom: 20px;
 }
 
 .ingredients {
+  font-family: "comic sans", cursive;
+  color: #777;
   width: 900px;
   height: 305px;
   background-image:url("images/list-bg.png");
 }
+
+li {
+  list-style-image: url("images/unchecked.png");
+}
+
+.column {
+  vertical-align: top;
+  display: inline-block;
+  margin-top: 37px;
+  margin-left: 90px;
+  line-height: 31px;
+  height: 305px;
+  width: 300px;
+}
+
+.strike {
+  text-decoration: line-through;
+  list-style-image: url("images/checked.png");
+}
+
+.author img {
+  margin: 20px;
+  float: left;
+}
+
+.author div {
+  display: inline-block;
+  width: 600px;
+}
+
+.author h2 {
+  font-size: 20px;
+  color: #777;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.author p {
+  font-size: 19px;
+  color: #777;
+}
+
+.author button {
+  font-family: 'Abel', sans-serif;
+  font-size: 16px;
+  border: none;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #B97456;
+  float: right;
+  margin-top: 40px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  font-size: 13px;
+  color: #999;
+  padding: 40px;
+}
+
+footer img {
+  margin: 30px;
+}
+
+/* * {
+  outline: dashed 1px orange;
+} */
