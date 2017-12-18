@@ -97,6 +97,7 @@ main {
   color: #777;
   text-indent: 40px;
   margin-bottom: 20px;
+  line-height: 1.5;
 }
 
 .ingredients {
@@ -104,6 +105,8 @@ main {
   width: 900px;
   height: 305px;
   background-image:url("images/list-bg.png");
+  margin-bottom: 50px;
+  margin-top: 30px;
 }
 
 li {
@@ -172,6 +175,8 @@ footer {
 footer img {
   margin: 30px;
 }
+
+
 
 /* * {
   outline: dashed 1px orange;
